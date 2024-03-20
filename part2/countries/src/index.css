@@ -1,0 +1,18 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.countries-list {
+    list-style: none;
+}
+
+.country-language-list {
+    margin-left: 20px;
+}
+
+.country-img {
+    width: 200px;
+    height: 200px;
+}
