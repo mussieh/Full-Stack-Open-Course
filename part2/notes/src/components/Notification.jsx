@@ -1,19 +1,9 @@
-const Notification = ({ message, visibility, isSuccessMessage }) => {
-    if (message === null || !visibility) {
+const Notification = ({ message }) => {
+    if (message === null) {
         return null;
     }
 
-    return (
-        <div
-            className={
-                isSuccessMessage
-                    ? "success-message-container"
-                    : "error-message-container"
-            }
-        >
-            {message}
-        </div>
-    );
+    return <div className="error">{message}</div>;
 };
 
 export default Notification;
